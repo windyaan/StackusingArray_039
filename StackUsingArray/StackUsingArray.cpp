@@ -37,4 +37,8 @@ public:
 		cout << "\nThe popped element is: " << stack_array[top] << endl;
 		top--;
 	}
+
+	bool empty() {
+		return (top == -1);
+	}
 };
